@@ -1,0 +1,14 @@
+@keyframes swipe {
+    0% {
+        transform: rotate(0deg) translateX(0);
+    }
+    100% {
+        transform: rotate(-15deg) translateX(100vh);
+    }
+}
+
+/* Class for applying the swipe animation */
+.handswipe {
+    animation: swipe 1.8s alternate infinite ease-in-out;
+    scale: 0.17
+}

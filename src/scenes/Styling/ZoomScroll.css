@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 550vh;
+}
+
+.slider-zs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  z-index: 1;
+}
+
+.slide-zs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide-zs:not(#slide-1) {
+  transform-origin: center;
+  z-index: 2;
+}
+
+.slide-img-zs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
