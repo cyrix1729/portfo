@@ -1,33 +1,34 @@
 import React, { useEffect, useState } from 'react';
+import gsap from 'gsap'
 import './Styling/Project.css';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 import { names, desc, notes, tech, link, link2 } from '../Text/Projects.js';
-import img1 from '../../public/assets/1.png';
-import img2 from '../../public/assets/2.png';
-import img3 from '../../public/assets/3.png';
-import img4 from '../../public/assets/4.png';
-import img5 from '../../public/assets/5.png';
-import img6 from '../../public/assets/6.png';
-import img7 from '../../public/assets/7.png';
-import img8 from '../../public/assets/8.png';
-import img9 from '../../public/assets/9.png';
-import img10 from '../../public/assets/10.png';
-import img11 from '../../public/assets/11.png';
-import img12 from '../../public/assets/12.png';
-import gif1 from '../../public/assets/1.gif';
-import gif2 from '../../public/assets/2.gif';
-import gif3 from '../../public/assets/3.gif';
-import gif4 from '../../public/assets/4.gif';
-import gif5 from '../../public/assets/5.gif';
-import gif6 from '../../public/assets/6.gif';
-import gif7 from '../../public/assets/7.gif';
-import gif8 from '../../public/assets/8.gif';
-import gif9 from '../../public/assets/9.gif';
-import gif10 from '../../public/assets/10.gif';
-import gif11 from '../../public/assets/11.gif';
-import gif12 from '../../public/assets/12.gif';
-import gsap from 'gsap';
-import info from '../../public/assets/info.jpg';
+import img1 from '../Assets/1.png';
+import img2 from '../Assets/2.png';
+import img3 from '../Assets/3.png';
+import img4 from '../Assets/4.png';
+import img5 from '../Assets/5.png';
+import img6 from '../Assets/6.png';
+import img7 from '../Assets/7.png';
+import img8 from '../Assets/8.png';
+import img9 from '../Assets/9.png';
+import img10 from '../Assets/10.png';
+import img11 from '../Assets/11.png';
+import img12 from '../Assets/12.png';
+
+import gif1 from '../Assets/1.gif';
+import gif2 from '../Assets/2.gif';
+import gif3 from '../Assets/3.gif';
+import gif4 from '../Assets/4.gif';
+import gif5 from '../Assets/5.gif';
+import gif6 from '../Assets/6.gif';
+import gif7 from '../Assets/7.gif';
+import gif8 from '../Assets/8.gif';
+import gif9 from '../Assets/9.gif';
+import gif10 from '../Assets/10.gif';
+import gif11 from '../Assets/11.gif';
+import gif12 from '../Assets/12.gif';
+import info from '../Assets/info.jpg';
 
 const gifs = [
   gif1, gif2, gif3, gif4, gif5, gif6, gif7, gif8, gif9, gif10, gif11, gif12
